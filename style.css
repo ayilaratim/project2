@@ -31,23 +31,37 @@ body {
     width :100%;
 }
 .mailbtn button {
-    width: 273px;
+    /* width: 273px;
  padding: 10px 39px 10px 10px;
  border-radius: 39px 39px 39px 39px;
  border: 1px 1px 1px 1px;
- opacity: 0px;
+ opacity: 0px; */
+ width: 273px;
+ padding: 10px 100px 10px 3px;
+ border-radius: 39px 39px 39px 39px;
+ border: 1px 1px 1px 1px;
+ opacity: 0px; 
+ height: 54px;
 }
 .mailbtn {
     color: white;
 }
 .subscribebtn button{
-    width: 141px;
+    /* width: 141px;
  height: Hug (54px)px;
  padding: 10px 38px 10px 10px;
  gap: 10px;
  border-radius: 35px 35px 35px 35px;
  opacity: 0px;
+ text-align: center; */
+ width: Hug (141px)px;
+ height: Hug (54px)px;
+ padding: 19px 38px 19px 38px;
+ gap: 10px;
+ border-radius: 35px 35px 35px 35px;
+ opacity: 0px;
  text-align: center;
+ color: #EF2779;
 }
 .subscribebtn {
     color:  #EF2779;

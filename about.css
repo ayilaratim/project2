@@ -1,0 +1,358 @@
+body { 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+.headertop {
+padding: 2rem;
+display: flex;
+gap: 7rem;
+}
+.headerlist li {
+list-style: none;
+}
+.headerlist ul {
+display: flex;
+align-items: center;
+gap: 2rem;
+}
+.list {
+ display: flex;
+ align-items: center;
+ gap: 2rem;
+   }
+.headerbtn {
+ display: flex;
+align-items: center;
+ gap :2rem;
+ }
+.logo img {
+    width :100%;
+}
+.mailbtn button {
+ width: 273px;
+ padding: 10px 100px 10px 3px;
+ border-radius: 39px 39px 39px 39px;
+ border: 1px 1px 1px 1px;
+ opacity: 0px; 
+ height: 54px;
+ /* width: Fixed (273px)px;
+ height: Hug (54px)px;
+ padding: 19px 39px 19px 39px;
+ gap: 64px;
+ border-radius: 39px 39px 39px 39px;
+ border: 1px 1px 1px 1px;
+ opacity: 0px; */
+}
+.mailbtn {
+    color: white;
+}
+.subscribebtn button{
+    /* width: 141px;
+ height: Hug (54px)px;
+ padding: 10px 38px 10px 10px;
+ gap: 10px;
+ border-radius: 35px 35px 35px 35px;
+ opacity: 0px; */
+ width: Hug (141px)px;
+ height: Hug (54px)px;
+ padding: 19px 38px 19px 38px;
+ gap: 10px;
+ border-radius: 35px 35px 35px 35px;
+ opacity: 0px;
+ text-align: center;
+ color: #EF2779;
+}
+/* .subscribebtn {
+    color:  #EF2779;
+    align-items: center;
+} */
+.Tayo h1 {
+ font-family: Open Sans;
+ font-size: 48px;
+ font-weight: 700;
+ letter-spacing: -0.0167em;
+ text-align: center;
+ color: white;
+}
+.Tayo p {
+    font-family: Open Sans;
+ font-size: 20px;
+ font-weight: 400;
+ line-height: 32px;
+ text-align: center;
+ width: 55%;
+ color: white;
+ margin: auto;
+}
+.Tayobtn button {
+    box-shadow: 0px 2px 4px -1px #00000012;
+
+  box-shadow: 0px 4px 7px -1px #0000001C;
+  background-color: white;
+  width: 149px;
+ height: 40px;
+ gap: 0px;
+ border-radius: 8px 8px 8px 8px;  
+ opacity: 0px;
+ text-align: center;
+}
+.Tayobtn {
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+.find h6{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;    
+}
+.finder img {
+    width: 30%;
+}
+.finder {
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+.find {
+    text-align: center;
+}
+.headercontainer {
+    background-image: url(/Background2.png);
+    padding: 2rem 2rem 4rem 2rem; 
+    margin-bottom: 3rem;
+}
+.intel h5 {
+ font-family: Open Sans;
+ font-size: 20px;
+ font-weight: 600;
+ text-align: left;
+}
+.intel h6 {
+ font-family: Open Sans;
+ font-size: 16px;
+ font-weight: 400;
+ /* line-height: 26px; */
+ text-align: left;
+}
+.intelimg {
+    text-align: center;
+    /* width: 80%;
+    margin: auto; */
+}
+.intecard {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.intern {
+    width: 80%;
+}
+.insight h5 {
+    font-family: Open Sans;
+ font-size: 20px;
+ font-weight: 600;
+ letter-spacing: -0.02em;
+ text-align: left;
+ width: 80%;
+}
+.insight h6 {
+ font-family: Open Sans;
+ font-size: 16px;
+ font-weight: 400;
+ /* line-height: 26px; */
+ text-align: left;
+ width: 80%;
+}
+.insights {
+    border: 1px solid #DEDEDE;
+    padding: 2rem 2rem 2rem 2rem;
+    box-shadow: 0px 8px 9px -5px #1414140F;
+ box-shadow: 0px 8px 26px -4px #14141426;
+ width: 400px;
+ height: 460px;
+ border-radius: 16px 16px 16px 16px;
+}
+.fullcard {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.styletext h3 {
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.0267em;
+    text-align: left;    
+}
+.styletext{
+    /* margin-top: -7rem; */
+    margin-right: 2rem;
+    text-align: center;
+    color: white;
+    line-height: 1rem;
+}
+.styletext h6 {
+ font-family: Open Sans;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 26px;
+ text-align: left;
+
+}
+.suittext h4 {
+    color: black;
+ font-family: Open Sans;
+ font-size: 20px;
+ font-weight: 600;
+ text-align: left;
+}
+.suittext h5 {
+    color: #17C1E8;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;    
+}
+.suittext h6 {
+    color: #67748E;
+ font-family: Open Sans;
+ font-size: 16px;
+ /* font-weight: 400;
+ line-height: 26px; */
+ text-align: left;
+ /* width: 100%; */
+}
+.suittext {
+    width: 100%;
+    /* width: 373px; */
+ /* height: 113px;  */
+ /* top: 1903px; */
+ /* left: 551px; */
+ gap: 0px;
+ opacity: 0px;
+}
+.suit {
+    box-shadow: 0px 18px 20px 0px #0000000D;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px; 
+    padding: 1rem 1rem 0rem 1rem;   
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    margin-bottom: 1rem;
+    height: 250px; 
+    gap: 1rem;
+}
+ .Standard {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    /* margin-bottom: -2rem;  */
+    width: 80%;
+    margin: auto;
+    /* margin-bottom: -2rem; */
+}
+.suitimg img {
+    width: 100%;
+}
+.suitimg {
+    width: 70%;
+}
+.style {
+    background-image: url(/pend.png);
+    /* margin-top: 2rem; */
+    padding-top: 7rem;
+}
+.socialimg {
+    text-align: center;
+    margin-top : 3rem;
+    margin-bottom: 2rem;
+}
+.socialimg img {
+    width: 70%;
+}
+.slate {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.advert {
+    text-align: center;
+    margin: 3rem 0rem 4rem 0rem;
+    width: 70%;
+    margin: auto;
+}
+.advert img {
+    width: 80%;
+}
+.section4 {
+    background: #F8F9FA;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem 0rem 3rem 0rem
+}
+.sectionn5text h4 {
+ font-family: Open Sans;
+ font-size: 24px;
+ font-weight: 600;
+ letter-spacing: -0.0333em;
+ text-align: left;
+}
+.sectionn5text h6 {
+ font-family: Open Sans;
+ font-size: 16px;
+ font-weight: 700;
+ line-height: 26px;
+ text-align: left;
+ width: 20%;
+}
+form input {
+    background: #FFFFFF;
+    border: 1px solid #D2D6DA;
+    width: 408px;
+ height: 40px;
+ top: 3102px;
+ left: 360px;
+ gap: 0px;
+ opacity: 0px;
+}
+.section5btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.sectionsub button{
+    width: 110px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 8px 8px 8px 8px;
+    opacity: 0px;
+    background: linear-gradient(135deg, #21D4FD 0%, #2152FF 100%);
+    box-shadow: 0px 2px 4px -1px #00000012;
+
+    box-shadow: 0px 4px 7px -1px #0000001C;
+    color: #FFFFFF;    
+    text-align: center;
+}
+.section5 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
